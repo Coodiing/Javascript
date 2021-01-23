@@ -1,0 +1,5 @@
+/* Check if div exist using Jquery */
+function divexist(div){
+    if($("#"+div).length) { return true;}
+    return false;
+}
